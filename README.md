@@ -23,10 +23,7 @@ Example:
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
-Single:
-
-![IGV screenshot of test.bam and test_deid.bam]
-(data/igv_snapshot_ABCA2_hg38.pdf)
+![IGV screenshot of test.bam and test_deid.bam](data/igv_snapshot_ABCA2_hg38.pdf)
 
 # DEPENDENCIES
 
