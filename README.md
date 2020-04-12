@@ -23,6 +23,8 @@ Example:
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
+Single:
+
 <img src="data/igv_snapshot_ABCA2_hg38.pdf" alt=""/>
 
 
