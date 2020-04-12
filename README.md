@@ -23,8 +23,7 @@ Example:
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
-![Single-nucleotide polymorphisms (red lines; test.bam) are removed by removedTheBamPHI.sh (test_deid.bam)]
-<img src="https://raw.github.com/kbrulois/removeTheBamPHI/master/data/igv_snapshot_ABCA2_hg38.pdf"/>
+<img src="https://raw.github.com/kbrulois/removeTheBamPHI/master/data/igv_snapshot_ABCA2_hg38.pdf" alt="screenshot"/>
 
 
 # DEPENDENCIES
