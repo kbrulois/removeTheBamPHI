@@ -1,14 +1,14 @@
 # NAME
 
-removedTheBamPHI.sh - Remove potentially identifiable sequencing data from bam files. 
+removeTheBamPHI.sh - Remove potentially identifiable sequencing data from bam files. 
 
 # SYNOPSIS
 
-    removedTheBamPHI.sh file.bam 
+    removeTheBamPHI.sh file.bam 
 
 # DESCRIPTION
 
-**removedTheBamPHI.sh file** replaces the string in the SEQ column of 
+**removeTheBamPHI.sh file** replaces the string in the SEQ column of 
 Sequence Alignment/Map files with a repeated string of * of the same length. The 
 result is saved as a bam file (with "_deid" appended to the file name). The 
 resulting bam file lacks identifiable sequencing information but is still 
@@ -19,12 +19,12 @@ analysis.
 
 Example:
 
-    removedTheBamPHI.sh /data/test.bam
+    removeTheBamPHI.sh /data/test.bam
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
 ![Single-nucleotide polymorphisms (red lines; test.bam) are removed by removedTheBamPHI.sh (test_deid.bam)]
-<img src="https://github.com/kbrulois/removeTheBamPHI/blob/master/data/igv_snapshot_ABCA2_hg38.pdf"/>
+<img src="https://github.com/kbrulois/removeTheBamPHI/data/igv_snapshot_ABCA2_hg38.pdf"/>
 
 
 # DEPENDENCIES
