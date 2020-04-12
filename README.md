@@ -25,7 +25,7 @@ Example:
 
 Single:
 
-<img src="data/igv_snapshot_ABCA2_hg38.pdf" alt=""/>
+![ScreenShot](data/igv_snapshot_ABCA2_hg38.pdf)
 
 
 # DEPENDENCIES
