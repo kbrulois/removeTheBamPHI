@@ -23,7 +23,7 @@ Example:
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
-![Single-nucleotide polymorphisms (red lines; test.bam) are removed by removedTheBamPHI.sh (test_deid.bam)](data/igv_snapshot_ABCA2_hg38.pdf)
+![Single-nucleotide polymorphisms (red lines; test.bam) are removed by removedTheBamPHI.sh (test_deid.bam)](https://github.com/kbrulois/removeTheBamPHI/data/igv_snapshot_ABCA2_hg38.pdf)
 Format: ![Alt Text](url)
 
 
@@ -34,7 +34,3 @@ Uses samtools and awk.
 # AUTHOR
 
 Written by Kevin Brulois
-
-# DOWNLOAD
-
-[https://github.com/kbrulois/removeTheBamPHI.git](https://github.com/kbrulois/removeTheBamPHI.git)
