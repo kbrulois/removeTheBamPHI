@@ -24,7 +24,7 @@ Example:
     samtools view test_deid.bam | tail 
 
 ![Single-nucleotide polymorphisms (red lines; test.bam) are removed by removedTheBamPHI.sh (test_deid.bam)]
-<img src="https://github.com/kbrulois/removeTheBamPHI/data/igv_snapshot_ABCA2_hg38.pdf"/>
+<img src="/data/igv_snapshot_ABCA2_hg38.pdf"/>
 
 
 # DEPENDENCIES
