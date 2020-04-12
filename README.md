@@ -14,10 +14,6 @@ result is saved as a bam file (with "_deid" appended to the file name). The
 resulting bam file lacks identifiable sequencing information but is still 
 compatible with many downstream analyses, including differential splicing 
 analysis. 
-Single:
-
-![ScreenShot](data/igv_snapshot_ABCA2_hg38.pdf)
-
 
 # USAGE
 
@@ -26,6 +22,10 @@ Example:
     removeTheBamPHI.sh /data/test.bam
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
+
+Single:
+
+![IGV Screenshot of test.bam and test_deid.bam](data/igv_snapshot_ABCA2_hg38.pdf)
 
 # DEPENDENCIES
 
