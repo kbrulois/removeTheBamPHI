@@ -23,7 +23,7 @@ Example:
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
-<img src="https://raw.github.com/kbrulois/removeTheBamPHI/master/data/igv_snapshot_ABCA2_hg38.pdf" alt="screenshot"/>
+<img src="data/igv_snapshot_ABCA2_hg38.pdf" alt="screenshot"/>
 
 
 # DEPENDENCIES
