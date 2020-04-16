@@ -19,7 +19,7 @@ analysis.
 
 Example:
 
-    removeTheBamPHI.sh /data/test.bam
+    removeTheBamPHI.sh test.bam
     samtools view test.bam | tail
     samtools view test_deid.bam | tail 
 
